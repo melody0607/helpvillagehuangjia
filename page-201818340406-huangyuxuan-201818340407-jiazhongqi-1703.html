@@ -1,11 +1,66 @@
 <!doctype html>
-<html>
+<html lang="zh">
 <head>
 <meta charset="utf-8">
 <title>拼多多案例</title>
-	<link rel="stylesheet" type="text/css" href="css/threethpart.css">
+	<link rel="stylesheet" type="text/css" href="css/secondpart.css">
+	<script src="js/echarts.min.js" type="text/javascript"></script><!-- 引入 ECharts 文件 -->
 </head>
 
 <body>
+	<div class="frontCover" id="099">
+			<p class="button">
+				<a href="index.html">返&nbsp;回</a>
+			</p>
+		</div>
+	<h1>拼多多——发迹于下沉市场，助力农货上行具有天然优势</h1>
+		<div class="icon">
+					<img src="img/201818340406-huangyuxuan-201818340407-jiazhongqi-1711.jpg" alt="拼多多" width="500px">
+		</div>
+		<p class="p4">拼多多成立于2015年，立足下沉市场，利用社交拼团的模
+		<br><br>式，快速实现用户裂变，三年时间完成上市，四年时间成长
+		<br><br>为中国第二大电商平台。拼多多的快速成长足以说明电商在
+		<br><br>下沉市场的发展潜力。艾媒咨询分析师认为，拼多多用户之
+		<br><br>间的强社交关系链以及平台建立的高性价比特征，使其在抢
+		<br><br>占农货电商市场、助力农货上行方面具有天然优势，平台农
+		<br><br>产品销售额保持高速增长态势。
+		</p>
+		<div id="mainten" style="width:800px; height:400px; margin-left:25%;margin-top:4%"></div>
+    		<script type="text/javascript">
+			// 基于准备好的dom，初始化echarts实例
+			var myChart = echarts.init(document.getElementById('mainten'));
+
+			// 指定图表的配置项和数据
+			var option = {
+						title: {
+							text: '2017-2019年拼多多农产品销售额',x:'center',
+									y:'bottom',textStyle: {
+								color: "#412614"}
+						},
+						tooltip: {},
+						legend: {
+							data:['销售额（亿元）']
+						},
+						xAxis: {
+							data: ["2017年","2018年","2019年"]
+						},
+						yAxis: {},
+						series: [{
+							name: '销售额（亿元）',
+							type: 'bar',
+							barWidth:50,
+							data: [196, 653, 1364]
+						}]
+					};
+			myChart.setOption(option);
+    </script>
+		<br>
+	<footer class="lineLast">
+		<p>
+		制作小组：黄钰璇、贾仲琪<br>
+		数据来源：商务大数据、艾媒数据中心、2019年中国电商兴农发展报告、2018年中国电子商务报告<br>
+		非商用，如有侵权，请联系374793620@qq.com
+		</p>
+	</footer>
 </body>
 </html>

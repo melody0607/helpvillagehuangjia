@@ -47,10 +47,36 @@ h1{font-family: "黑体";
 	padding:5px 50px 5px;
 	margin-left: 400px;
 	margin-right:250px}
-
-.lineLast{background-color: #fdfcde;
-				margin:0px;
-				padding:1px 0px 1px 0px;text-align: center;}
+.icon{margin-left: 10%;}
+.icon2{margin-left: 13%;}
+.p3{font-family: "黑体";
+	font-size: 20px;
+	color:#412614;
+	margin-left: 50%;
+	margin-right: 15%;
+	margin-top:-250px}
+.p4{font-family: "黑体";
+	font-size: 20px;
+	color:#412614;
+	margin-left: 50%;
+	margin-right: 15%;
+	margin-top:-330px}
+.lineLast{text-align: center;
+			background-color: #fdfcde;
+			margin:-50px 0 -50px 0}
+#buttonLast{padding-top:20%;
+				margin-bottom: -100%}
+	.lineLast{background-color: #fdfcde;
+				margin:0px 0 -50px 0;
+				padding:1px 0px 1px 0px}
 	.lineLast p{font-size:15px;
+			line-height: 1.5;
+			text-align: center;}
+#buttonLast{padding-top:20%;
+				margin-bottom: -100%}
+	.lineLast{background-color: #fdfcde;
+				margin:0px 0 -50px 0;
+				padding:1px 0px 1px 0px}
+	.lineLast p{font-size:14px;
 			line-height: 1.7;
-			}
+			text-align: center;}
